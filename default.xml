@@ -307,14 +307,8 @@
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="LineageOS/android_hardware_qcom_display-caf" groups="caf" />
-  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="LineageOS/android_hardware_qcom_media-caf" groups="caf" />
-  <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk"/>
   <project path="libcore" name="LineageOS/android_libcore" />
   <project path="libnativehelper" name="LineageOS/android_libnativehelper" groups="pdk-java" />
