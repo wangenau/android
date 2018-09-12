@@ -26,6 +26,7 @@
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
   <project path="dalvik" name="LineageOS/android_dalvik" />
+  <project path="development" name="LineageOS/android_development" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" />
   <project path="external/android-mock" name="LineageOS/android_external_android-mock" />
