@@ -27,7 +27,9 @@
   <project path="bootable/diskinstaller" name="LineageOS/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" />
+  <project path="cts" name="platform/cts" remote="aosp" groups="cts" />
   <project path="dalvik" name="LineageOS/android_dalvik" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" />
   <project path="external/android-mock" name="LineageOS/android_external_android-mock" />
