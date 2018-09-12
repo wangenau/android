@@ -305,11 +305,7 @@
   <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />
   <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
-  <project path="hardware/akm" name="LineageOS/android_hardware_akm" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="LineageOS/android_hardware_cm" />
-  <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom" />
