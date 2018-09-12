@@ -1,50 +1,56 @@
-LineageOS
-===========
+Customized LineageOS 11.0
+=========================
+Manifest to build a customized version of LineageOS 11.0 for the Samsung Galaxy S Plus GT-I9001.<br>
 
-Submitting Patches
+Build Instructions
 ------------------
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit!
-You can do this by using these commands:
+General setup & build guide:<br>
+    https://wiki.lineageos.org/devices/i9100/build
 
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
+* If you have adb/fastboot already installed, you can skip the "Install the SDK" section.<br>
+* Put the repo file inside `.local/bin` and skip the part inside "Put the ~/bin directory in your path of execution" eventually.<br>
+* Substitute the listed branch with cm-11.0 inside the "Initialize the LineageOS source repository" section, or use `repo init -u https://github.com/wangenau/android.git -b cm-11.0` instead, to use this manifest.<br>
+* Instead of doing "Prepare the device-specific code" and "Extract proprietary blobs" add this manifest file as described at the top.
+* The export `export CCACHE_COMPRESS=1` inside "Turn on caching to speed up build" is not supported for cm-11.0.<br>
+* "Configure jack" can be skipped for cm-11.0.<br>
 
-    repo start cm-11.0 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
+Eventually needed packages (inside Troubleshooting section):<br>
+    https://forum.xda-developers.com/showpost.php?p=52736153
 
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+Toolchains
+----------
+* Linaro 7.x Kernel Toolchain (placed in `../project_path/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/`):<br>
+    https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi
 
-To view the status of your and others' patches, visit [LineageOS Code Review](http://review.lineageos.org/)
+* UberTC 4.8.5 Rom Toolchain (placed in `../project_path/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/`):<br>
+    https://bitbucket.org/UBERTC/arm-linux-androideabi-4.8
 
+Exports
+-------
+Some useful exports that can be placed inside the `.bashrc`:<br>
+* `export KBUILD_BUILD_USER=username`: overwrite your username
+* `export KBUILD_BUILD_HOST=hostname`: overwrite your hostname
+* `export USE_CCACHE=1`: speed up the building process
+* `export WITH_SU=true`: build with su to get a build with root
 
-Getting Started
----------------
+Signing
+-------
+I added a [script](https://github.com/wangenau/android_build/blob/cm-11.0/tools/releasetools/signed_ota_from_target_files), that automatically creates a signed ota package after your build finished.<br>
+To use this script you have to generate your own keys inside ~/.android-certs.
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Key generation:<br>
+    https://wiki.lineageos.org/signing_builds.html
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To check if one of my builds has the correct signature, simply use:<br>
+`keytool -J-Duser.language=en -list -printcert -jarfile zip_name.zip`
 
-    repo init -u git://github.com/LineageOS/android.git -b cm-11.0
+The resulting fingerprints of my builds (after the 2018-08-03) are listed as follows:<br>
+`Certificate fingerprints:`<br>
+`MD5: A2:42:4C:F5:4E:DD:3A:A2:C8:20:3A:AF:A1:D6:B9:99`<br>
+`SHA1: F2:13:38:21:53:55:89:CD:30:96:18:99:DD:7B:6D:81:DF:18:79:5F`<br>
+`SHA256: 94:56:09:A6:38:84:CB:BD:82:A5:A9:30:2F:D7:7C:EC:95:AA:57:FE:88:3B:9B:16:79:61:64:B4:AC:79:53:CC`
 
-Then to sync up:
-
-    repo sync
-
-Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](http://jenkins.lineageos.org/)
+Downloads, Changelogs, Installation guide and more
+--------------------------------------------------
+For more informations about this project you can go to xda:<br>
+    https://forum.xda-developers.com/galaxy-s-i9000/i9001-development/gt-i9001-customized-lineageos-11-0-06-t3813257

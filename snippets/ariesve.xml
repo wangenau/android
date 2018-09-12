@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="wangenau"
+           fetch="https://github.com/wangenau"
+           revision="cm-11.0" />
+
+  <!-- AriesVE Repositories -->
+  <project path="device/samsung/ariesve" name="android_device_samsung_ariesve" remote="wangenau" />
+  <project path="kernel/samsung/msm7x30" name="android_kernel_samsung_msm7x30" remote="wangenau" />
+  <project path="vendor/samsung/ariesve" name="android_vendor_samsung_ariesve" remote="wangenau" />
+  <project path="vendor/samsung/msm7x30" name="android_vendor_samsung_msm7x30" remote="wangenau" />
+</manifest>
