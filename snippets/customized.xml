@@ -9,7 +9,6 @@
            fetch="https://github.com/wangenau"
            revision="cm-11.0" />
 
-  <!-- Replaced Repositories -->
   <remove-project name="LineageOS/android_art" />
   <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_bootable_recovery" />
