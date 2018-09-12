@@ -24,9 +24,7 @@
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/diskinstaller" name="LineageOS/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" />
   <project path="dalvik" name="LineageOS/android_dalvik" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" />
@@ -304,11 +302,9 @@
   <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />
   <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="LineageOS/android_hardware_cm" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
@@ -399,16 +395,14 @@
   <project path="packages/wallpapers/NoiseField" name="LineageOS/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="LineageOS/android_packages_wallpapers_PhaseBeam" />
   <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
-  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="prebuilt" name="LineageOS/android_prebuilt" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" clone-depth="1" remote="aosp" />
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />-->
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/misc" name="LineageOS/android_prebuilts_misc" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="LineageOS/android_sdk" />
