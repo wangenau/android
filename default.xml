@@ -28,19 +28,6 @@
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" />
   <project path="dalvik" name="LineageOS/android_dalvik" />
-  <project path="device/common" name="LineageOS/android_device_common" />
-  <project path="device/generic/armv7-a-neon" name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="LineageOS/android_device_generic_mips" groups="pdk" />
-  <project path="device/generic/x86" name="LineageOS/android_device_generic_x86" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-  <project path="device/google/accessory/arduino" name="LineageOS/android_device_google_accessory_arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="LineageOS/android_device_google_accessory_demokit" groups="device" />
-  <project path="device/sample" name="LineageOS/android_device_sample" groups="device" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" />
   <project path="external/android-mock" name="LineageOS/android_external_android-mock" />
