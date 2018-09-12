@@ -347,7 +347,7 @@
   <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="LineageOS/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk"  />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk"/>
   <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="LineageOS/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="LineageOS/android_hardware_ti_omap4xxx" />
@@ -489,7 +489,7 @@
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />  
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
