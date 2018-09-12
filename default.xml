@@ -29,7 +29,6 @@
   <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" />
   <project path="cts" name="platform/cts" remote="aosp" groups="cts" />
   <project path="dalvik" name="LineageOS/android_dalvik" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" />
   <project path="external/android-mock" name="LineageOS/android_external_android-mock" />
@@ -405,20 +404,13 @@
   <!--<project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />-->
   <project path="pdk" name="platform/pdk" remote="aosp" groups="pdk" />
   <project path="prebuilt" name="LineageOS/android_prebuilt" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" />
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" />-->
   <project path="prebuilts/misc" name="LineageOS/android_prebuilts_misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" groups="pdk" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" groups="pdk,tools" />
