@@ -90,8 +90,8 @@
   <project path="external/dhcpcd" name="LineageOS/android_external_dhcpcd" />
   <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="LineageOS/android_external_doclava" />
-  <project path="external/dropbear" name="LineageOS/android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" />
+  <project path="external/dropbear" name="LineageOS/android_external_dropbear" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="LineageOS/android_external_easymock" />
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
@@ -170,12 +170,12 @@
   <project path="external/libppp" name="LineageOS/android_external_libppp" />
   <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="LineageOS/android_external_libsepol" groups="pdk" />
+  <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
   <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/libusb" name="LineageOS/android_external_libusb" />
-  <project path="external/libusbx" name="LineageOS/android_external_libusbx" />
   <project path="external/libusb-compat" name="LineageOS/android_external_libusb-compat" />
-  <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
+  <project path="external/libusbx" name="LineageOS/android_external_libusbx" />2
   <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" />
   <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="LineageOS/android_external_libxml2" />
@@ -184,8 +184,8 @@
   <project path="external/linux-tools-perf" name="LineageOS/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="LineageOS/android_external_littlemock" />
   <project path="external/llvm" name="LineageOS/android_external_llvm" groups="pdk" />
-  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
   <project path="external/lsof" name="LineageOS/android_external_lsof" />
+  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" />
   <project path="external/markdown" name="LineageOS/android_external_markdown" />
@@ -292,9 +292,9 @@
   <project path="frameworks/opt/mms" name="LineageOS/android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />
-  <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="LineageOS/android_frameworks_opt_telephony-msim" />
+  <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
