@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-4.4.4_r2.0.1" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-4.4.4_r2.0.1" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
