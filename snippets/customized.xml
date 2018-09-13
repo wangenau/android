@@ -10,6 +10,7 @@
            revision="cm-11.0" />
 
  <!-- Removed Packages -->
+  <remove-project name="LineageOS/android_packages_apps_BluetoothExt" />
   <remove-project name="LineageOS/android_packages_apps_Browser" />
   <remove-project name="LineageOS/android_packages_apps_CMAccount" />
   <remove-project name="LineageOS/android_packages_apps_CMBugreport" />

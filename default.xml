@@ -38,7 +38,6 @@
   <project path="external/antlr" name="LineageOS/android_external_antlr" />
   <project path="external/apache-harmony" name="LineageOS/android_external_apache-harmony" />
   <project path="external/apache-http" name="LineageOS/android_external_apache-http" />
-  <project path="external/apache-qp" name="LineageOS/android_external_apache-qp" />
   <project path="external/apache-xml" name="LineageOS/android_external_apache-xml" />
   <project path="external/arduino" name="LineageOS/android_external_arduino" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
@@ -132,7 +131,6 @@
   <project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" />
   <project path="external/iptables" name="LineageOS/android_external_iptables" />
   <project path="external/iputils" name="platform/external/iputils" remote="aosp" />
-  <project path="external/jack" name="LineageOS/android_external_jack" />
   <project path="external/JakeWharton/butterknife" name="LineageOS/android_external_JakeWharton_butterknife" />
   <project path="external/javasqlite" name="LineageOS/android_external_javasqlite" />
   <project path="external/javassist" name="LineageOS/android_external_javassist" />
@@ -170,7 +168,6 @@
   <project path="external/libppp" name="LineageOS/android_external_libppp" />
   <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="LineageOS/android_external_libsepol" groups="pdk" />
-  <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
   <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/libusb" name="LineageOS/android_external_libusb" />
@@ -278,11 +275,9 @@
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
-  <project path="frameworks/mff" name="LineageOS/android_frameworks_mff" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
   <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
-  <project path="frameworks/opt/carddav" name="LineageOS/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="LineageOS/android_frameworks_opt_emoji" />
@@ -296,7 +291,6 @@
   <project path="frameworks/opt/telephony-msim" name="LineageOS/android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
-  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" />
   <project path="frameworks/testing" name="LineageOS/android_frameworks_testing" />
@@ -401,7 +395,6 @@
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" >
