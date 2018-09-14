@@ -1,18 +1,19 @@
 Customized LineageOS 11.0
 =========================
 Manifest to build a customized version of LineageOS 11.0 for the Samsung Galaxy S Plus GT-I9001.<br>
+To use this repository use `repo init -u https://github.com/wangenau/android.git -b cm-11.0` while setting up your build system, but you can also add the files inside snippets to your local_manifests folder. I removed a few repositories from the default.xml. You may run into build issues if you are using it.
 
 Build Instructions
 ------------------
 General setup & build guide:<br>
     https://wiki.lineageos.org/devices/i9100/build
 
-* If you have adb/fastboot already installed, you can skip the "Install the SDK" section.<br>
-* Put the repo file inside `.local/bin` and skip the part inside "Put the ~/bin directory in your path of execution" eventually.<br>
-* Substitute the listed branch with cm-11.0 inside the "Initialize the LineageOS source repository" section, or use `repo init -u https://github.com/wangenau/android.git -b cm-11.0` instead, to use this manifest.<br>
+* If you have adb/fastboot already installed, you can skip the "Install the SDK" section.
+* Put the repo file inside `.local/bin` and skip the part inside "Put the ~/bin directory in your path of execution" eventually.
+* Substitute the listed branch with cm-11.0 inside the "Initialize the LineageOS source repository" section, or use `repo init -u https://github.com/wangenau/android.git -b cm-11.0` instead, to use this manifest.
 * Instead of doing "Prepare the device-specific code" and "Extract proprietary blobs" add this manifest file as described at the top.
-* The export `export CCACHE_COMPRESS=1` inside "Turn on caching to speed up build" is not supported for cm-11.0.<br>
-* "Configure jack" can be skipped for cm-11.0.<br>
+* The export `export CCACHE_COMPRESS=1` inside "Turn on caching to speed up build" is not supported for cm-11.0.
+* "Configure jack" can be skipped for cm-11.0.
 
 Eventually needed packages (inside Troubleshooting section):<br>
     https://forum.xda-developers.com/showpost.php?p=52736153

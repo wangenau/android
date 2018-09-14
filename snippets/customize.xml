@@ -17,6 +17,7 @@
   <remove-project name="LineageOS/android_packages_apps_CMHome" />
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_packages_apps_CMWallpapers" />
+  <remove-project name="LineageOS/android_packages_apps_Exchange" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_packages_apps_SmartCardService" />
   <remove-project name="LineageOS/android_packages_apps_SoundRecorder" />
@@ -31,7 +32,6 @@
   <remove-project name="LineageOS/android_packages_experimental" />
   <remove-project name="LineageOS/android_packages_inputmethods_OpenWnn" />
   <remove-project name="LineageOS/android_packages_inputmethods_PinyinIME" />
-  <remove-project name="LineageOS/android_packages_providers_ApplicationsProvider" />
   <remove-project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" />
   <remove-project name="LineageOS/android_packages_screensavers_Basic" />
   <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
