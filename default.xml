@@ -271,29 +271,29 @@
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
+  <!--<project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />-->
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
-  <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
+  <!--<project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />-->
   <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
-  <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
+  <!--<project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />-->
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="LineageOS/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
-  <project path="frameworks/opt/inputmethodcommon" name="LineageOS/android_frameworks_opt_inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="LineageOS/android_frameworks_opt_mailcommon" />
+  <!--<project path="frameworks/opt/inputmethodcommon" name="LineageOS/android_frameworks_opt_inputmethodcommon" />-->
+  <!--<project path="frameworks/opt/mailcommon" name="LineageOS/android_frameworks_opt_mailcommon" />-->
   <project path="frameworks/opt/mms" name="LineageOS/android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" />
-  <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />
+  <!--<project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />-->
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="LineageOS/android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
-  <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
+  <!--<project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />-->
   <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" />
   <project path="frameworks/testing" name="LineageOS/android_frameworks_testing" />
-  <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />
+  <!--<project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />-->
   <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
@@ -401,5 +401,4 @@
 
   <include name="snippets/ariesve.xml" />
   <include name="snippets/customize.xml" />
-
 </manifest>
