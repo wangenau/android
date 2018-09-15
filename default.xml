@@ -39,7 +39,6 @@
   <project path="external/apache-harmony" name="LineageOS/android_external_apache-harmony" />
   <project path="external/apache-http" name="LineageOS/android_external_apache-http" />
   <project path="external/apache-xml" name="LineageOS/android_external_apache-xml" />
-  <project path="external/arduino" name="LineageOS/android_external_arduino" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="LineageOS/android_external_blktrace" />
@@ -157,8 +156,6 @@
   <project path="external/liblzf" name="LineageOS/android_external_liblzf" groups="pdk" />
   <project path="external/libmtp" name="LineageOS/android_external_libmtp" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnl-headers" name="LineageOS/android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="LineageOS/android_external_libogg" />
   <project path="external/libpcap" name="LineageOS/android_external_libpcap" />
@@ -264,36 +261,35 @@
   <project path="external/wpa_supplicant_8_ti" name="LineageOS/android_external_wpa_supplicant_8_ti" />
   <project path="external/xmlwriter" name="LineageOS/android_external_xmlwriter" />
   <project path="external/xmp_toolkit" name="LineageOS/android_external_xmp_toolkit" />
-  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="LineageOS/android_external_zxing" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
-  <!--<project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />-->
+  <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
-  <!--<project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />-->
+  <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
   <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
-  <!--<project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />-->
+  <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="LineageOS/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
-  <!--<project path="frameworks/opt/inputmethodcommon" name="LineageOS/android_frameworks_opt_inputmethodcommon" />-->
-  <!--<project path="frameworks/opt/mailcommon" name="LineageOS/android_frameworks_opt_mailcommon" />-->
+  <project path="frameworks/opt/inputmethodcommon" name="LineageOS/android_frameworks_opt_inputmethodcommon" />
+  <project path="frameworks/opt/mailcommon" name="LineageOS/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="LineageOS/android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" />
-  <!--<project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />-->
+  <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="LineageOS/android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
-  <!--<project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />-->
+  <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" />
   <project path="frameworks/testing" name="LineageOS/android_frameworks_testing" />
-  <!--<project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />-->
+  <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />
   <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />

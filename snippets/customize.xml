@@ -9,7 +9,14 @@
            fetch="https://github.com/wangenau"
            revision="cm-11.0" />
 
- <!-- Removed Packages -->
+  <!-- Removed Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_compile_mclinker" />
+  <remove-project name="LineageOS/android_frameworks_ml" />
+  <remove-project name="LineageOS/android_frameworks_opt_mailcommon" />
+  <remove-project name="LineageOS/android_frameworks_opt_photoviewer" />
+  <remove-project name="LineageOS/android_frameworks_volley" />
+
+  <!-- Removed Packages -->
   <remove-project name="LineageOS/android_packages_apps_Browser" />
   <remove-project name="LineageOS/android_packages_apps_CMAccount" />
   <remove-project name="LineageOS/android_packages_apps_CMBugreport" />
