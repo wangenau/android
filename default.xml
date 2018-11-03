@@ -261,6 +261,7 @@
   <project path="external/wpa_supplicant_8_ti" name="LineageOS/android_external_wpa_supplicant_8_ti" />
   <project path="external/xmlwriter" name="LineageOS/android_external_xmlwriter" />
   <project path="external/xmp_toolkit" name="LineageOS/android_external_xmp_toolkit" />
+  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="LineageOS/android_external_zxing" />
