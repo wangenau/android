@@ -71,6 +71,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio-caf" />
   <remove-project name="LineageOS/android_hardware_qcom_display-caf" />
   <remove-project name="LineageOS/android_hardware_qcom_media-caf" />
+  <remove-project name="LineageOS/android_libcore" />
   <remove-project name="LineageOS/android_packages_apps_Apollo" />
   <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
@@ -103,6 +104,7 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="wangenau" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="wangenau" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="wangenau" />
+  <project path="libcore" name="android_libcore" remote="wangenau" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="wangenau" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="wangenau" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="wangenau" />
