@@ -3,7 +3,7 @@
 
   <remote  name="android"
            fetch="https://android.googlesource.com"
-           revision="refs/tags/android-8.1.0_r60" />
+           revision="refs/tags/android-8.1.0_r61" />
 
   <remote  name="wangenau"
            fetch="https://github.com/wangenau"
