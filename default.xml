@@ -300,7 +300,7 @@
   <project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/display-caf" name="LineageOS/android_hardware_qcom_display-caf" groups="caf" />
   <project path="hardware/qcom/media-caf" name="LineageOS/android_hardware_qcom_media-caf" groups="caf" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk"/>
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="libcore" name="LineageOS/android_libcore" />
   <project path="libnativehelper" name="LineageOS/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
