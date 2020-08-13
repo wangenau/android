@@ -3,7 +3,7 @@
 
   <remote  name="android"
            fetch="https://android.googlesource.com"
-           revision="refs/tags/android-8.1.0_r74" />
+           revision="refs/tags/android-8.1.0_r79" />
 
   <remote  name="wangenau"
            fetch="https://github.com/wangenau"
@@ -87,7 +87,7 @@
   <remove-project name="platform/system/ca-certificates" />
   <project path="art" name="android_art" remote="wangenau" />
   <project path="bionic" name="android_bionic" remote="wangenau" />
-  <project path="bootable/recovery-twrp" name="TeamWin/android_bootable_recovery" remote="github" revision="android-4.4" />
+  <project path="bootable/recovery-twrp" name="TeamWin/android_bootable_recovery" remote="github" revision="android-5.1" />
   <project path="build" name="android_build" remote="wangenau" />
   <project path="dalvik" name="android_dalvik" remote="wangenau" />
   <project path="external/fuse" name="android_external_fuse" remote="wangenau" />
